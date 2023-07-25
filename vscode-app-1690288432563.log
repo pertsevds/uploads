@@ -1,0 +1,703 @@
+log.ts:421  INFO Invoking resolveAuthority(ssh-remote)...
+log.ts:421  INFO [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] obtaining proxy...
+log.ts:421  INFO [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] invoking...
+log.ts:421  INFO [LocalProcess0][resolveAuthority(ssh-remote,1)][1004ms] waiting...
+log.ts:421  INFO [LocalProcess0][resolveAuthority(ssh-remote,1)][2080ms] waiting...
+log.ts:441   ERR [Extension Host] (node:10748) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+console.ts:137 [Extension Host] (node:10748) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+v @ console.ts:137
+log.ts:421  INFO [LocalProcess0][resolveAuthority(ssh-remote,1)][2641ms] returned WebSocket(127.0.0.1:5084)
+log.ts:421  INFO resolveAuthority(ssh-remote) returned 'WebSocket(127.0.0.1:5084)' after 2642 ms
+log.ts:421  INFO Creating a socket (renderer-Management-824f42ba-cd69-4804-8cb2-25b302784afd)...
+log.ts:421  INFO Creating a socket (renderer-ExtensionHost-d0bdb14a-a527-4f3c-95f3-019ee9fc9ab2)...
+log.ts:421  INFO Creating a socket (renderer-Management-824f42ba-cd69-4804-8cb2-25b302784afd) was successful after 122 ms.
+log.ts:421  INFO Creating a socket (renderer-ExtensionHost-d0bdb14a-a527-4f3c-95f3-019ee9fc9ab2) was successful after 247 ms.
+log.ts:431  WARN [ms-vscode.remote-server]: The viewsWelcome contribution in 'ms-vscode.remote-server' requires 'enabledApiProposals: ["contribViewsWelcome"]' in order to use the 'group' proposed property.
+console.ts:137 [Extension Host] Initializing tunnel extension
+log.ts:431  WARN No search provider registered for scheme: vscode-remote, waiting
+log.ts:421  INFO [perf] Render performance baseline is 36ms
+console.ts:137 [Extension Host] ElixirLS: Loading extension
+console.ts:137 [Extension Host] ElixirLS: activating extension in mode SINGLE_FOLDER
+console.ts:137 [Extension Host] ElixirLS: Workspace folders are Array(1)
+console.ts:137 [Extension Host] ElixirLS: Workspace is undefined
+console.ts:137 [Extension Host] ElixirLS: creating test controller
+console.ts:137 [Extension Host] ElixirLS: starting LSP client for /root/repos/dnstap with server options Object client options Object
+console.ts:137 [Extension Host] ElixirLS: extension activated
+console.ts:137 [Extension Host] rejected promise not handled within 1 second: TypeError: Cannot read properties of undefined (reading 'capabilities')
+v @ console.ts:137
+console.ts:137 [Extension Host] stack trace: TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at i.parseTestsInDocument [as value] (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:9303)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at e.$kL.acceptDocumentsAndEditorsDelta (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:13273)
+	at e.$kL.$acceptDocumentsAndEditorsDelta (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:11770)
+	at t.N (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+v @ console.ts:137
+mainThreadExtensionService.ts:81 [JakeBecker.elixir-ls]Cannot read properties of undefined (reading 'capabilities')
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:81
+mainThreadExtensionService.ts:82 TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at i.parseTestsInDocument [as value] (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:9303)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at e.$kL.acceptDocumentsAndEditorsDelta (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:13273)
+	at e.$kL.$acceptDocumentsAndEditorsDelta (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:11770)
+	at t.N (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:82
+console.ts:137 [Extension Host] rejected promise not handled within 1 second: TypeError: Cannot read properties of undefined (reading 'capabilities')
+v @ console.ts:137
+console.ts:137 [Extension Host] stack trace: TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptModelChanged (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10888)
+	at t.N (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+v @ console.ts:137
+mainThreadExtensionService.ts:81 [JakeBecker.elixir-ls]Cannot read properties of undefined (reading 'capabilities')
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:81
+mainThreadExtensionService.ts:82 TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptModelChanged (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10888)
+	at t.N (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:82
+console.ts:137 [Extension Host] rejected promise not handled within 1 second: TypeError: Cannot read properties of undefined (reading 'capabilities')
+v @ console.ts:137
+console.ts:137 [Extension Host] stack trace: TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptDirtyStateChanged (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10569)
+	at t.N (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+v @ console.ts:137
+mainThreadExtensionService.ts:81 [JakeBecker.elixir-ls]Cannot read properties of undefined (reading 'capabilities')
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:81
+mainThreadExtensionService.ts:82 TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptDirtyStateChanged (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10569)
+	at t.N (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:82
+console.ts:137 [Extension Host] rejected promise not handled within 1 second: TypeError: Cannot read properties of undefined (reading 'capabilities')
+v @ console.ts:137
+console.ts:137 [Extension Host] stack trace: TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptDirtyStateChanged (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10569)
+	at t.N (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+v @ console.ts:137
+mainThreadExtensionService.ts:81 [JakeBecker.elixir-ls]Cannot read properties of undefined (reading 'capabilities')
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:81
+mainThreadExtensionService.ts:82 TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptDirtyStateChanged (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10569)
+	at t.N (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:82
+console.ts:137 [Extension Host] rejected promise not handled within 1 second: TypeError: Cannot read properties of undefined (reading 'capabilities')
+v @ console.ts:137
+console.ts:137 [Extension Host] stack trace: TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptDirtyStateChanged (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10569)
+	at v.$acceptModelSaved (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10367)
+	at t.N (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+v @ console.ts:137
+mainThreadExtensionService.ts:81 [JakeBecker.elixir-ls]Cannot read properties of undefined (reading 'capabilities')
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:81
+mainThreadExtensionService.ts:82 TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptDirtyStateChanged (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10569)
+	at v.$acceptModelSaved (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10367)
+	at t.N (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:82
+console.ts:137 [Extension Host] rejected promise not handled within 1 second: TypeError: Cannot read properties of undefined (reading 'capabilities')
+v @ console.ts:137
+console.ts:137 [Extension Host] stack trace: TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptModelChanged (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10888)
+	at t.N (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+v @ console.ts:137
+mainThreadExtensionService.ts:81 [JakeBecker.elixir-ls]Cannot read properties of undefined (reading 'capabilities')
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:81
+mainThreadExtensionService.ts:82 TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptModelChanged (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10888)
+	at t.N (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:82
+console.ts:137 [Extension Host] rejected promise not handled within 1 second: TypeError: Cannot read properties of undefined (reading 'capabilities')
+v @ console.ts:137
+console.ts:137 [Extension Host] stack trace: TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptDirtyStateChanged (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10569)
+	at t.N (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+v @ console.ts:137
+mainThreadExtensionService.ts:81 [JakeBecker.elixir-ls]Cannot read properties of undefined (reading 'capabilities')
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:81
+mainThreadExtensionService.ts:82 TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptDirtyStateChanged (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10569)
+	at t.N (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:82
+console.ts:137 [Extension Host] rejected promise not handled within 1 second: TypeError: Cannot read properties of undefined (reading 'capabilities')
+v @ console.ts:137
+console.ts:137 [Extension Host] stack trace: TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptDirtyStateChanged (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10569)
+	at t.N (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+v @ console.ts:137
+mainThreadExtensionService.ts:81 [JakeBecker.elixir-ls]Cannot read properties of undefined (reading 'capabilities')
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:81
+mainThreadExtensionService.ts:82 TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptDirtyStateChanged (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10569)
+	at t.N (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:82
+console.ts:137 [Extension Host] rejected promise not handled within 1 second: TypeError: Cannot read properties of undefined (reading 'capabilities')
+v @ console.ts:137
+console.ts:137 [Extension Host] stack trace: TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptDirtyStateChanged (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10569)
+	at v.$acceptModelSaved (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10367)
+	at t.N (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+v @ console.ts:137
+mainThreadExtensionService.ts:81 [JakeBecker.elixir-ls]Cannot read properties of undefined (reading 'capabilities')
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:81
+mainThreadExtensionService.ts:82 TypeError: Cannot read properties of undefined (reading 'capabilities')
+	at parseTestsInFileContents (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:108:49)
+	at parseTestsInDocument (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:97:13)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:27:53)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.x (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1972)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2188)
+	at v.$acceptDirtyStateChanged (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10569)
+	at v.$acceptModelSaved (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:102:10367)
+	at t.N (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:11199)
+	at t.M (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10965)
+	at t.H (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:10046)
+	at t.G (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:9122)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:112:7952)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:30341)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:13931)
+	at s.z (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:16976)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:15428)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at i.acceptChunk (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:11705)
+	at i.value (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:76:10992)
+	at p.w (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:1902)
+	at p.fire (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:60:2119)
+	at p.u (vscode-file://vscode-app/root/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/out/vs/workbench/api/node/extensionHostProcess.js:128:19065)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:82
+console.ts:137 [Extension Host] ElixirLS: started LSP client for file:///root/repos/dnstap
+console.ts:137 [Extension Host] ElixirLS: registering watcher in dnstap projectDir /root/repos/dnstap
+console.ts:137 [Extension Host] ElixirLS: Finding tests in  file:///root/repos/dnstap/test/dnstap_test.exs
+console.ts:137 [Extension Host] ElixirLS: Finding tests in  file:///root/repos/dnstap/test/dnstap_test.exs
+console.ts:137 [Extension Host] rejected promise not handled within 1 second: TypeError: output.split is not a function or its return value is not iterable
+v @ console.ts:137
+$logExtensionHostMessage @ mainThreadConsole.ts:39
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+w @ event.ts:1088
+fire @ event.ts:1119
+fire @ ipc.net.ts:650
+z @ ipc.net.ts:1015
+(anonymous) @ ipc.net.ts:875
+w @ event.ts:1088
+fire @ event.ts:1119
+acceptChunk @ ipc.net.ts:394
+(anonymous) @ ipc.net.ts:350
+(anonymous) @ browserSocketFactory.ts:230
+w @ event.ts:1088
+fire @ event.ts:1119
+i.onload @ browserSocketFactory.ts:91
+console.ts:137 [Extension Host] stack trace: TypeError: output.split is not a function or its return value is not iterable
+	at writeOutput (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:176:35)
+	at runHandler (/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:231:25)
+v @ console.ts:137
+$logExtensionHostMessage @ mainThreadConsole.ts:39
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+w @ event.ts:1088
+fire @ event.ts:1119
+fire @ ipc.net.ts:650
+z @ ipc.net.ts:1015
+(anonymous) @ ipc.net.ts:875
+w @ event.ts:1088
+fire @ event.ts:1119
+acceptChunk @ ipc.net.ts:394
+(anonymous) @ ipc.net.ts:350
+(anonymous) @ browserSocketFactory.ts:230
+w @ event.ts:1088
+fire @ event.ts:1119
+i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:81 [JakeBecker.elixir-ls]output.split is not a function or its return value is not iterable
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:81
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+w @ event.ts:1088
+fire @ event.ts:1119
+fire @ ipc.net.ts:650
+z @ ipc.net.ts:1015
+(anonymous) @ ipc.net.ts:875
+w @ event.ts:1088
+fire @ event.ts:1119
+acceptChunk @ ipc.net.ts:394
+(anonymous) @ ipc.net.ts:350
+(anonymous) @ browserSocketFactory.ts:230
+w @ event.ts:1088
+fire @ event.ts:1119
+i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:82 TypeError: output.split is not a function or its return value is not iterable
+	at writeOutput (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:176:35)
+	at runHandler (vscode-file://vscode-app/root/.vscode-server/extensions/jakebecker.elixir-ls-0.15.3/out/testController.js:231:25)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:82
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+w @ event.ts:1088
+fire @ event.ts:1119
+fire @ ipc.net.ts:650
+z @ ipc.net.ts:1015
+(anonymous) @ ipc.net.ts:875
+w @ event.ts:1088
+fire @ event.ts:1119
+acceptChunk @ ipc.net.ts:394
+(anonymous) @ ipc.net.ts:350
+(anonymous) @ browserSocketFactory.ts:230
+w @ event.ts:1088
+fire @ event.ts:1119
+i.onload @ browserSocketFactory.ts:91
